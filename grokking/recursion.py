@@ -19,3 +19,14 @@ def factorial(number):
         return number * factorial(number - 1)
     
 print(factorial(5)) # Answer -> 5 * 4 * 3 * 2 * 1 = 120
+
+# Exercise count number of item in a list using recursion
+
+def count(items):
+    if len(items) == 0: return 0
+    items.pop()
+    return 1 + count(items)
+
+items = [2,3,4,5]
+print(len(items))
+print(count(items))
