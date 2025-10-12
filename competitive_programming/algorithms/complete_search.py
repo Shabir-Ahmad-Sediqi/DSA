@@ -1,3 +1,4 @@
+# An algorithm where you check all possible solutions
 
 subset = []
 
