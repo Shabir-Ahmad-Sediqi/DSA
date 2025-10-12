@@ -1,5 +1,7 @@
 def solve(n):
 
+    # Even numbers are devided by two and odd numbers are multiplied by 3 then add to 1
+
     output = []
     output.append(n)
     while n != 1:
