@@ -88,4 +88,4 @@ PRs are welcome! You can:
 
 ## 📜 License
 
-MIT License
+MIT License!
