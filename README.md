@@ -86,6 +86,6 @@ PRs are welcome! You can:
 
 ---
 
-## 📜 License
+## License
 
 MIT License!
