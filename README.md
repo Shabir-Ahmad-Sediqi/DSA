@@ -44,7 +44,7 @@ python sorting/quick_sort.py
 * **Arrays & Strings**: basic manipulations, two-pointer problems
 * **Linked Lists**: singly, doubly, cycle detection
 * **Stack & Queue**: classic stack/queue, min-stack
-* **Trees**: binary search tree, traversals
+* **Trees**: binary search tree, traversals.
 * **Sorting**: Quick Sort, Merge Sort, Bubble Sort
 * **Searching**: Binary Search
 * **Dynamic Programming**: simple DP problems (Fibonacci, knapsack)
