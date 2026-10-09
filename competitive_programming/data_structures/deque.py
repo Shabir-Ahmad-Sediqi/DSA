@@ -3,12 +3,19 @@
 
 from collections import deque
 
-dq = deque([1,2,3])
-dq.append(4)
+dq = deque([2,4])
+
+print(dq)
+
+dq.append(3)
 dq.appendleft(0)
+
+print(dq)
+
 dq.pop()
 dq.popleft()
 
 print(dq)
 
-print(dq)
+dq.extend([2,3])
+print(*dq)

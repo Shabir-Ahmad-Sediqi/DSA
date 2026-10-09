@@ -1,19 +1,65 @@
+from itertools import permutations
 
-n = 3
-permutation = []
-chosen = [False,False,False]
+nums = [1,2,3]
 
-def search():
-    if len(permutation) == n:
-        print(permutation)
-    else:
-        for i in range(n):
+print(list(permutations(nums)))
+
+def permutation(nums):
+
+    result = []
+    current = []
+    chosen = [False, False, False]
+
+    def backtrack():
+        if len(current) == len(nums):
+            result.append(current.copy())
+            return
+        
+        for i, num in enumerate(nums):
             if chosen[i]:
                 continue
             chosen[i] = True
-            permutation.append(i)
-            search()
+            current.append(num)
+            backtrack()
             chosen[i] = False
-            permutation.pop()
+            current.pop()
 
-search()
+    backtrack()
+    return result
+
+# print(permutation([1,2,3]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

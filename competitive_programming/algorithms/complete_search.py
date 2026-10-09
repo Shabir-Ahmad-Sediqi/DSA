@@ -8,6 +8,7 @@ def search(k,n):
         return 
     search(k+1,n)
     subset.append(k)
+    rf
     search(k+1,n)
     subset.pop()
 
