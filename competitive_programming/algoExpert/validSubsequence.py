@@ -1,12 +1,21 @@
 
 def validSubsequence(arr, subArr):
+    L = len(arr)
+    j = 0
 
-    for i in subArr:
-        if i in arr:
-            continue
+    for i in range(L):
+        if arr[i] == subArr[j]:
+            j += 1
         else:
-            return False
-    return True
+            continue
+    print(len(subArr))
+    print(j)
+    if j == len(subArr):
+        return True
+    else:
+        return False
+       
+    
 
 arr = list(map(int, input().split()))
 subArr = list(map(int, input().split()))
