@@ -8,8 +8,7 @@ def validSubsequence(arr, subArr):
             j += 1
         else:
             continue
-    print(len(subArr))
-    print(j)
+        
     if j == len(subArr):
         return True
     else:
